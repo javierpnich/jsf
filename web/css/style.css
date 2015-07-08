@@ -1,0 +1,67 @@
+        body
+        {
+            overflow-y: scroll; overflow-x:hidden;
+        }
+        span
+        {
+            font-size: 22px;
+            padding-right: 5px;
+            color: #FFF;
+        }
+        .submitButton
+        {
+            font-size: 20px;
+            height: 25px;
+            border-radius: 5px;
+            vertical-align: top;
+        }
+        .headerDiv
+        {
+           /* height: auto;            */
+            background: #C15D63;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .textBox
+        {
+            border-radius: 5px;
+            border: 2px solid #FFF;
+        }
+        
+        .displayToDo
+        {
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+           /* height: Auto; */
+            width: 200px;
+            color: #ffffff;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+        }
+        .panel
+        {
+            box-shadow: 5px 5px 5px #888888 !important;
+            border: 3px solid #888888 !important;
+            margin: 20px;
+            text-align: center;
+            background-color: #CEF6F5;
+        }
+        .panel .mensaje {
+            
+            color: blue;
+        }
+        .encabezado{
+            height: 100px;
+            width: 100%;
+            color: inherit;
+            background-color: #eee;
+        }
+        .encabezado * {
+            text-align:  center;
+            margin: 5px 20px;
+        }
+        .separador{
+            height: 20px;
+        }
