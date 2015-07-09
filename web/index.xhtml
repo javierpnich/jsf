@@ -4,11 +4,45 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html">
     <h:head>
         <title>Facelet Title</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
+        <link rel="stylesheet" type="text/css" href="css/style.css"></link>        
+        
     </h:head>
     <h:body>
-        Hello from Facelets
-        <br />
-        <h:link outcome="welcomeIcefaces" value="ICEfaces welcome page" />
+        <div class="container">
+            <div class="row">            
+            <nav class="navbar navbar-default">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Pedidos del Restaurante<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Pedidos Telefonicos</a></li>
+                </ul>
+            </nav>                                
+            </div>
+            <div class="row">            
+                <div class="encabezado">
+                  <h1>Elvis Burger</h1>
+                </div>                
+            </div>                
+            <div class="row separador">                                    
+            </div>                                
+            <div class="row ">                                    
+                    <div class="col-md-2">   
+                        <div class="row separador">                                    
+                        </div>                                
+                        
+                    </div>   
+                            <div class="panel col-md-4">                        
+                                    <img src="img/restaurante.jpg" alt="pedidos restaurante" class="img-responsive"> </img>                                                                
+                                    <button id="bmesa1" type="button" class="btn  btn-primary navbar-btn btn-block">Pedido del restaurante</button>
+                            </div>        
+
+                            <div class="panel col-md-4">                        
+                                    <img src="img/pedidos.jpg"  alt="pedidos restaurante" class="img-responsive"> </img>                                                                
+                                    <button id="bmesa2" type="button" class="btn  btn-primary navbar-btn btn-block">Pedido Telefonico</button>
+                            </div>        
+                
+            </div>                        
+        </div>
     </h:body>
 </html>
 
